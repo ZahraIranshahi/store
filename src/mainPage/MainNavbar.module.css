@@ -1,0 +1,84 @@
+.container {
+  background-color: white;
+  width: 98%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  padding: 20px;
+  border-bottom: rgb(228, 225, 225) solid 1px;
+}
+.logo {
+  height: 30px;
+}
+.input {
+  background-color: rgb(230, 228, 228);
+  width: 400px;
+  height: 35px;
+  margin: 0px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.input:focus{
+  outline: none;
+}
+.search {
+  background-color: rgb(230, 228, 228);
+  position: absolute;
+  height: 37px;
+  left: 515px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.link {
+  margin: 10px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.options {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 20px;
+  top: 85px;
+  width: 800px;
+}
+.allproducts{
+  color: black;
+  font-size:20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.loginbut{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 150px;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid rgb(230, 228, 228);
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .loginbut{
+    left: 20px;
+    top: 70px;
+    width: 99px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .container{
+    height: 100px;
+  }
+  .options{
+    top: 110px;
+  }
+}
+@media screen and (max-width: 800px){
+  .container{
+    width: 120%;
+  }
+}

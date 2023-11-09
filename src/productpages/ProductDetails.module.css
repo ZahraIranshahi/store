@@ -1,0 +1,62 @@
+.container {
+  background-color: white;
+  border: 1px solid #8080805c;
+  border-radius: 10px;
+  margin: 80px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container img {
+  width: 400px;
+  height: 400px;
+  margin: 20px 10px;
+}
+.texts {
+  border: 1px solid #8080805c;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin: 0px 30px;
+}
+.texts h3 {
+  color: #562B08;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.category {
+  color: #8D7B68;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.categoryTitle {
+  font-weight: bold;
+  color: #C58940;
+}
+.priceAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.price {
+  color: #4E9F3D;
+  border: none;
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: inset 0px -1px 3px 0px rgb(194, 180, 180);
+}
+.link {
+  font-size: larger;
+  color: #562B08;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  cursor: pointer;
+  box-shadow: inset -2px -1px 3px 0px rgb(194, 180, 180);
+}

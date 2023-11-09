@@ -1,0 +1,26 @@
+.container {
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom-left-radius: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 8px 32px 24px 25px;
+  text-decoration: none;
+  z-index: 1;
+}
+.cart {
+    padding-top: 9px;
+    position: relative;
+}
+.cartIcon {
+  color: blue;
+}
+.cartItemQuantity {
+  background-color: bisque;
+  position: absolute;
+  top: 0;
+  left: 33px;
+  padding: 2px 5px;
+  border-radius: 10px;
+}

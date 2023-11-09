@@ -1,0 +1,69 @@
+.container {
+  box-sizing: border-box;
+  width: 65%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid silver 1px;
+  border-radius: 5px;
+  margin: 50px 170px;
+  padding: 0px 50px;
+}
+.container img {
+  width: 120px;
+  height: 120px;
+  margin: 10px 0px;
+}
+.container h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #562B08;
+  font-size: large;
+}
+.container p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4E9F3D;
+  font-size: large;
+  font-weight: bold;
+}
+.quantity {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px #562B08 solid;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: bold;
+  padding: 7px;
+}
+.pluseButton {
+  color: #562B08;
+  background-color: #FEE0C0;
+  padding: 6px 8px;
+  margin: 0px 5px;
+  font-size: larger;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgb(219, 218, 218);
+}
+.minusButton {
+  color: #562B08;
+  background-color: #FEE0C0;
+  padding: 6px 10px;
+  margin: 0px 5px;
+  font-size: larger;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgb(219, 218, 218);
+}
+.trashButton {
+  color: #562B08;
+  background-color: #FEE0C0;
+  padding: 5px 6px;
+  margin: 0px 5px;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgb(219, 218, 218);
+}
